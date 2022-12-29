@@ -1,0 +1,35 @@
+//# include <stdio.h>
+// instructions seq of intsru
+//int m ain () {
+  // valid
+//int a = 22;
+  //int b = 44;
+  //int c = b * 6;
+ // int d = 1,e;
+  //invalid
+  //int oldAge = 44;
+  //int years = 44;
+  //int newAge = oldAge + years;// red islie kyuki years h he nh isme to ab add krdiy
+  
+  
+ // return 0;
+//}
+# include <stdio.h>
+# include <math.h>
+int main () {
+//Arithematic instructions lke +,- ,* this
+  int b , c;
+  //int a = b+c;//left me efine ki jrurat nh
+  b =3, c = 1;
+  int a = b +c;
+  int power = b+c;
+  printf("%d",power);
+  // power ke loiy pow use hoga
+  //int a = 1, b=2;
+  //int sum = a+b;
+ // int multiply = a*b;
+  //int divide = a/b;
+  //int subtract = a - b;
+  //int x , y = a*b;// y me jyegi x ko nya variable define kiya a and b
+  return 0;
+}

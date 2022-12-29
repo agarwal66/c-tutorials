@@ -1,0 +1,144 @@
+#include <stdio.h>
+// fibonacchi seq
+int fib(int n);
+
+int main(){
+fib(12);
+return 0;  
+}
+int fib (int n){
+  if (n ==0|| n==1){
+    if ( n==0){
+      return 0;
+      
+    }
+    if(n==1){
+      return 1;
+    }
+  }
+  int fibNm1 = fib(n-1);
+  int fibNm2 = fib(n-2);
+  int fibN = fibNm1 + fibNm2;
+  printf("fib of n %d is %d\n", n , fibN);
+  return fibN;
+}
+// int calcPercentage(int math, int science, int eng);
+
+// int main(){
+//  int math = 99;
+//   int science = 77;
+//   int eng = 99;
+//   printf("percentage of marks :%d", calcPercentage(math,science,eng));
+// return 0;  
+// }
+// int calcPercentage(int math, int science, int eng){
+//   return ((math + science + eng) /3)*100;
+// }
+//---------
+// float convertTemp(float celsius);
+// int main(){
+//   float far = convertTemp(32);
+//   printf(" far:%f",far);
+// return 0;  
+// }
+// float convertTemp(float celsius){
+//   float far = celsius *(9.0/5.0) + 32;
+//   return far;
+// }
+
+//----------
+
+// int fact( int n);
+// int main(){
+//   printf("factorial os : %d", fact(4));
+//   return 0;
+// }
+// int fact(int n){
+//   printf("calculate fact of n : %d\n",n);
+// int factNm1 = fact(n-1);
+// int factN = factNm1 * n;
+// return factN;
+// }
+
+
+
+
+
+
+
+
+
+
+
+// n sum of recrussuin
+// int fact (int n);
+// int main (){
+//   printf("%d", fact(6));
+//   return 0;
+// }
+// int fact (int n){
+//   if (n == 0){
+//     return 1;
+//   }
+//   int factNm1 = fact(n-1);// sum Nm ka mtlb number me se minus from 1
+//   int sumN = factNm1  + n;
+// }
+
+
+// int sum (int n);
+// int main (){
+//   printf("%d", sum(6));
+//   return 0;
+// }
+// int sum (int n){
+//   if (n==1){
+//     return 1;
+//   }
+//   int sumNm1 = sum(n-1);// sum Nm ka mtlb number me se minus from 1
+//   int sumN = sumNm1  + n;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// void printHw(int count);
+// int main (){
+//   printHw(100);
+//   // recrssion short krdeta or long bhi krdeta
+  
+//   return 0;
+// }
+// void printHw(int count){
+//   if (count==0){
+//     return ;
+//   }
+//   printf("Hello wold");
+//   printHw(count - 1);
+// }

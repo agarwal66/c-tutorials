@@ -1,0 +1,57 @@
+#include<stdio.h>
+# include <string.h>
+int countVowel(char arr[]);
+int main (){
+  char str[] = "hello world";
+  slice(str, 3,5);
+}
+int countVowels(char str[]){
+  int count = 0
+  for (int i=0; str[i] != '\0'; i++){
+    if (str[i] == 'a'|| str[i]=='e'|| str[i]== 'i')||
+      str[i] == 'o' ]] str[i] == 'u'}{
+      count++;
+      }
+}
+// void printString(char arr[]);
+// void countLenght(char arr[]);
+// void slice(char str[], int n,int m);
+// int main () {
+//  char password[100];
+//      scanf("%s",&ch);
+//   salting(password); 
+//      i++;
+//    }
+//     void printString( char arr[]){
+//     for (int i = 0; arr[i] != '\0' ;i++ 
+//   // char firstStr[100] = "hello";
+//   // char secString[] = "Prateek";
+//   // strcat(firstStr,secString);
+//   // puts(firstStr);
+//   // }
+// //   char oldStr[] = "oldStr";
+// //   char newStr[]= "newStr";
+// //   strcpy(newStr, oldStr);
+// //   puts(newStr);
+// int main (){
+// //salting is secure passwrd
+//   // char str[100];
+//   // char ch;
+//   // int i =0;
+//   // while (ch != '\n'){
+//   //   scanf("%c",&ch); 
+//   //   str[i]= ch;
+//   //   i++;
+//   // }
+//   // str[i]='\0';
+//   // puts(str);
+//   // char firstStr[100] = "hello";
+//   // char secString[] = "Prateek";
+//   // strcat(firstStr,secString);
+//   // puts(firstStr);
+//   // }
+// //   char oldStr[] = "oldStr";
+// //   char newStr[]= "newStr";
+// //   strcpy(newStr, oldStr);
+// //   puts(newStr);
+// // }

@@ -1,0 +1,148 @@
+#include <stdio.h>
+//oid calcSum(struct vector v1, struct vector v2, struct vector sum);
+ //struct complex{
+ //int real;
+ //int img
+ //};
+typedef struct information{
+struct information{
+ char name;
+  char class;
+  float cgpa;
+};
+  void printAdd(struct information add)
+  printf("information is %c, %c, %f\n", add.information);
+int main(){
+   struct information adds[5];
+   printf("enter information for person 1")
+     scanf("%c", add[0].name)
+    scanf("%c", add[0].class)
+     scanf("%f", add[0].cgpa)
+     return 0;
+  }
+// int accountNo;
+// char name[100];
+// } acc ;
+
+// int main (){
+//   acc acc1 = {123456, "prateek"};
+//    acc acc2 = {1256, "ritik"};
+//   printf("acc no is + %d", acc1.accountNo);
+//   printf("name = %s", acc1.name);
+//   return 0;
+//   }
+//   struct complex number1 = {5,8};
+//   struct complex *ptr = &number1;
+//   printf("img part = %d", ptr->real);
+//     printf("img part = %d", ptr->img);
+// }
+
+
+
+
+// #include <string.h>
+// struct vector{
+// int x;
+// int y;
+// };
+// void calcSum(struct vector v1, struct vector v2, struct vector sum);
+// int main (){
+//   struct vector v1 = {4,6};
+//   struct vector v2 = {44,66};
+//   struct vector sum  = {0};
+//   calcSum(v1 , v2, sum);
+//   return 0;
+// }
+// void calcSum(struct
+// vector v1, struct vector v2, struct vector sum);
+// sum.x =  v1.x + v2.x;
+// sum.y = v1.y + v2.y;
+// printf("sum of x is : %d\n", sum.x);
+// printf("sum of y is: %d\n", sum.y);
+//   }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  typedef struct computerEngineeringStudent{
+//  struct address{
+//  int houseNO;
+//  int block;
+//  char city[100];
+//  char state[80];
+//  };
+//  void printAdd(struct address add)
+//  printf("address is %d, %d, %s, %s\n", add.houseNumbeer)
+//  //int main(){
+//    struct address adds[5];
+//    printf("enter infor for person 1")
+//      scanf("%d", add[0].block)
+//      scanf("%d", add[0].houseNo)
+//     scanf("%d", add[0].state)
+//      scanf("%d", add[0].city)
+
+//  struct address adds[5];
+//    printf("enter infor for person 1")
+//      scanf("%d", add[0].block)
+//      scanf("%d", add[0].houseNo)
+//      scanf("%d", add[0].state)
+//      scanf("%d", add[0].city)
+
+//  struct address adds[5];
+//    printf("enter infor for person 1")
+//      scanf("%d", add[0].block)
+//     scanf("%d", add[0].houseNo)
+//      scanf("%d", add[0].state)
+//      scanf("%d", add[0].city)
+
+// // struct address adds[5];
+// //   printf("enter infor for person 1")
+// //     scanf("%d", add[0].block)
+// //     scanf("%d", add[0].houseNo)
+// //     scanf("%d", add[0].state)
+// //     scanf("%d", add[0].city)
+
+// // struct address adds[5];
+// //   printf("enter infor for person 1")
+// //     scanf("%d", add[0].block)
+// //     scanf("%d", add[0].houseNo)
+// //     scanf("%d", add[0].state)
+// //     scanf("%d", add[0].city)
+// //     struct address adds[5];
+// //   printf("enter infor for person 1")
+// //     scanf("%d", add[0].block)
+// //     scanf("%d", add[0].houseNo)
+// //     scanf("%d", add[0].state)
+// //     scanf("%d", add[0].city)
+// //     struct address adds[5];
+// //   printf("enter infor for person 1")
+// //     scanf("%d", add[0].block)
+// //     scanf("%d", add[0].houseNo)
+// //     scanf("%d", add[0].state)
+// //     scanf("%d", add[0].city)
+// //     void printAdd(struct address add)
+// // printf("address is %d, %d, %s, %s\n", 

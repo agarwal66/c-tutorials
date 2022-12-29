@@ -1,0 +1,39 @@
+#include <stdio.h>
+# include <math.h>
+int main () {
+ // Assignment operator
+  int a = 1;
+  int b =4;
+  a =+b;
+  a -=b;
+  a *+b;
+  printf("%d",a);
+  return 0;
+}
+// logical operator
+  //&& and
+  //|| or
+  //!   not
+  //printf("%d", 4>3 && 5<3); // ek false to false he print hoga or dono true jab he 1 hoga
+  //printf("%d", 4>3 || 5<3); //isme ture hoga
+ // printf("%d", !((4>3) && (5<3)));// expression ke outpur ko ulta krna jab ! yh lgao jaise 5 >1 true yh lgado toh false dega
+
+///# include <stdio.h>
+//#include <math.h>
+// control operation
+// koi kaam baar baar use loop
+// decision le usko decision
+// cases me like ky ky akaam krna h
+//int main () {
+//relational operator
+ // int a;
+  //printf("%d",a == 7);equal to isme 0 hua to unequal or 1 hua to equal like 4==4 
+   // printf("%d",a >= 7);
+    //printf("%d",a > 7);
+    //printf("%d",a <= 7);
+    //printf("%d",a != 7); not equal to -!= isme 0 hua tb equal or 1 hua to unequal like 4==3
+  // all true false done
+ // return 0;
+  //} 
+
+

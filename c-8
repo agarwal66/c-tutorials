@@ -1,0 +1,72 @@
+#include <stdio.h>
+int main (){
+  // switch
+char day;
+  printf("enter day(1-7:");
+  scanf("%s", &day);
+  switch(day){
+  case 'm' : printf("Monday\n");
+    break;
+     case 't' : printf("Tuesday\n");
+    break;
+     case 'w' : printf("Wednesday\n");
+    break;
+     case 'T' : printf("Thursday\n");
+    break;
+     case 'f' : printf("Friday\n");
+    break;
+     case 's': printf("Saturday\n");
+    break; 
+    case 'S' : printf("Sunday\n");
+    break; 
+    
+  default : printf("not a valid day!");
+
+  return 0;
+  }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  //conditional statements(if else)
+  // if(condition){
+  //do something true
+  //}
+  //int age;
+  //printf("enter age");
+  //scanf("%d", &age);
+  //age >= 22 ?  printf("adult") : printf("not able");// / ? yh ternanry operator in placxement
+  //return 0;
+//}
+
+ //conditional statements(if else)
+  // if(condition){
+  //do something true
+  //}
+  //int age;
+ // printf("enter age");
+  //scanf("%d", &age);
+ // if (age > 11){// curly bracket lgana pdega jb bhi if me ek se jyada ststement ho
+   //printf("children\n");
+   // printf("play football\n");
+   // printf("drive car\n");
+   // }
+  //  else if (age > 12 && age>=22)
+    //  printf("teenage");
+  //else{
+    //printf("born baby");
+   // }

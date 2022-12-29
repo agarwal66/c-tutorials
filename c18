@@ -1,0 +1,121 @@
+#include<math.h>
+float squareArea(float side);
+float circleArea(float r);
+float rectangleArea(float a ,float b);
+int main(){
+  //float a = 5.55;
+  //float b = 6.78;
+  float r;
+  printf("enter a radius");
+  scanf("%f", &r);
+  printf("r is :%f", 3.14*r*r);
+  return 0;
+}
+float squareArea(float side){
+  return side*side;
+}
+float circleArea(float r){
+  return 3.14*r *r;
+}
+float rectangleArea(float a , float b){
+  return a * b;
+}
+
+// #include <math.h>
+// void calculatePrice(float  value);
+// int main (){
+// int n = 4;
+//   printf("%f",pow(n , 2));
+// return 0;
+// }
+// void calculatePrice(int value);
+// int main (){
+//   float value = 22;
+//   calculatePrice(value);
+//   printf("value is %f", value);
+//   return 0;
+// }
+// void calculatorPrice(float value){
+//   value = value +(0.18 * value);
+//   printf("final pice, %f", value);
+// }
+  
+
+// void printTable();
+// //passing argument
+// int main (){
+//   int n;
+//   printf("enter a first number");
+//   scanf("%d",&n);
+//   printTable(n);
+//   return 0;
+//   }
+// void printTable(int n){
+// for(int i =1; i<=20; i++){
+//   printf("%d",i*n);
+//   }
+// }
+// int sum (int a , int b);
+// //passing argument
+// int main (){
+//   int a , b;
+//   printf("enter a first number");
+//   scanf("%d",&a);
+//   printf("enter second number");
+//   scanf("%d",&b);
+//   int s = sum (a,b);
+//   printf(" sum is %d", s);
+//   return 0;
+//   }
+//   int sum (int a , int b){
+//    return a +b;
+// }
+//-----------------
+// void namaste();
+// void bonjour();
+// int main (){
+//   printf(" enter f for french & i for indian:");
+//   char ch;
+//   scanf("%c",&ch);
+//   if (ch == 1){
+//     namaste();
+//     }else{
+//     bonjour();
+//     } 
+    
+//   return 0;
+// }
+//   void namaste(){
+//     printf("Namaste");
+//   }
+// void bonjour(){
+//   printf("bonjour");
+// }
+  //printf("my name is prateek");
+  
+// void printHello();
+// int main (){
+//   printHello();
+//   // func likhne ke 3 steps guys
+//   return 0;
+// }
+// void printHello(){
+// printf("hello");
+//   printf("my name is prateek");
+//   }
+
+// void printHello();// this called calling function
+// void printGoodbye();
+// int main (){
+//   printHello();
+//   printGoodbye();
+//   // func likhne ke 3 steps guys
+//   return 0;
+// }
+// void printHello(){
+// printf("hello\n");
+//   }
+//   void printGoodbye(){
+//   printf("Goodbye");
+//     }
+  

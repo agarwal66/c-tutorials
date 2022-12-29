@@ -1,0 +1,51 @@
+// #include <string.h>
+// alias mtlb different name kisi ke bhi liye int char any
+typedef struct ComputerEngineeringStudent{
+int roll;
+float cgpa;
+char name[100];
+} stu;// alias mtlb ksika isme student h to stu h alias;
+typedef struct computerEngineeringStudent{
+int roll;
+float cgpa;
+char name[100];
+}coe; 
+int main (){
+  coe s1;
+  s1.roll = 67;
+  s1.cgpa = 9.3;
+  strcpy(s1.name, "prateek" );
+    printf("student name is %s\n", s1.name);
+return 0;
+}
+//  //Function prototypr
+// //void printInfo(struct student s1);
+//   struct student{
+//   int roll;
+//   float cgpa;
+//   char name[100]; 
+//   };
+// void printInfo(struct student s1);   
+// int main (){
+//  struct student s1 = {1665,9.9,"prateek" }
+//     printf("student roll = %d\n", s1.roll);
+//   struct student *ptr = &s1 '
+'#include <stdio.h>
+{1665,9.9,"prateek" }
+//     printf("student roll = %d\n", s1.roll);
+
+//   void printInfo(struct student s2);
+//   printf("student information : \n")
+//     printf("student.roll = %d\n", s1.roll);
+// //     struct student *ptr = &s1;
+// //     printf("student roll = %d\n", (*ptr.(roll);
+// return 0;
+//     }
+
+
+    
+    // struct student ece[100];
+    // ece[0].roll = 1664;
+    // ece[0].cgpa = 9.8;
+    // strcpy(ece[0].name , 
+   

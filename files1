@@ -1,0 +1,81 @@
+ FILE *fptr;
+  fptr = fopen("NewTest.txt", "r");
+  char  ch;
+  ch = fgetc(fptr);
+  while(ch != EOF){
+    printf("%c", ch);
+    ch = fgetc(fptr);
+  }
+  printf("\n");
+  // read & write a char
+  // fputc('M',fptr);
+  // fputc('A',fptr);
+  // fputc('N',fptr);
+  // fputc('G', fptr);
+  // fputc('O', fptr);
+  // fprintf("%c\n",fgetc (fptr));
+  //  fprintf("%c\n",fgetc (fptr));
+  //  fprintf("%c\n",fgetc(fptr));
+  //  fprintf("%c\n", fgetc(fptr));
+  //  fprintf("%c\n",fgetc (fptr));
+  fclose(fptr);
+  return 0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  // r yaha pr mtlb h read and write--// w represent write mode
+  // fprintf(fptr, "%c", 'M');
+  // fprintf(fptr, "%c", 'A');
+  // fprintf(fptr, "%c", 'N');
+  // fprintf(fptr, "%c", 'G');
+  // fprintf(fptr, "%c", 'O');
+  //USS NEWSTEXT ME DATA ADD hoga
+ //  char ch;
+ //  fscanf(fptr, "%c", &ch);
+ //  printf("character = %c\n",ch);
+ //    fscanf(fptr, "%c", &ch);
+ //  printf("character = %c\n",ch);
+ //    fscanf(fptr, "%c", &ch);
+ //  printf("character = %c\n",ch);
+ //    fscanf(fptr, "%c", &ch);
+ //  printf("character = %c\n",ch);
+ //    fscanf(fptr, "%c", &ch);
+ //  printf("character = %c\n",ch);
+ //   fscanf(fptr, "%c", &ch);
+ //  printf("character = %c\n",ch);
+ //    fscanf(fptr, "%c", &ch);
+ //  printf("character = %c\n",ch);
+ //    fscanf(fptr, "%c", &ch);
+ //  printf("character = %c\n",ch);
+ //    fscanf(fptr, "%c", &ch);
+ //  printf("character = %c\n",ch);
+ //    fscanf(fptr, "%c", &ch);
+ //  printf("character = %c\n",ch);// yh 5 baar islie print kiya kyuki apn ne apple poora print krana h jo file apn ne isme store ki test,txt se
+ //  // number ke liye bs %d dldo or kch nh bhai
+ //  //if(fptr == NULL){
+ //    //printf("file doesnt exist");
+ // // }else{
+  
+ // fclose(fptr);
+ // return 0;
+//}/
+//Best Practice
+// data pdhne ke lie f printf and f scanf se data pdehege
+//char ch;
+//fscan(fptr, "%c",&ch);

@@ -1,0 +1,22 @@
+ s1.roll = 1665;
+    s1.cgpa = 99.2;
+strcpy(s1.name, "prateek\n");
+printf("student name = %s", s1.name);
+  printf("student cgpa = %f", s1.cgpa);
+  printf("student roll = %d", s1.roll);
+    struct student s2;
+    s1.roll = 165;
+    s1.cgpa = 9.2;
+strcpy(s1.name, "dev\n");
+printf("student name = %s", s1.name);
+  printf("student cgpa = %f", s1.cgpa);
+  printf("student roll = %d", s1.roll);
+    struct student s3;
+    s1.roll = 166;
+    s1.cgpa = 98.2;
+strcpy(s1.name, "arpit\n");
+printf("student name = %s", s1.name);
+  printf("student cgpa = %f", s1.cgpa);
+  printf("student roll = %d", s1.roll);
+  return 0;
+}

@@ -1,0 +1,197 @@
+#include <stdio.h>
+void storeTable(int arr[][10], int n, int m, int number);
+int main (){
+  int tables[2][6];
+  storeTable(tables , 0 , 10 ,2);
+  storeTable(tables, 1,16,3);
+  for (int i = 0; i<10; i++){
+    printf("%d\t", tables[0][i]);
+  }
+  for(int i =0; i<10; i++){
+    printf("%d",tables[1][i]);
+  }
+  return 0;
+}
+void storeTable(int arr[][10],int n,int m, int numbers){
+  for (int i = 0;i<m;i++){
+    arr[n][i] = numbers * (i+1);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//#include<stdio.h>
+//int main (){
+  
+// int n;
+// printf("enter n:");
+// scanf("%d",&n);
+//   int fib[n];
+//   fib[0] = 0;
+//   fib[1] = 1;
+//   for (int i=2;i<n; i++){
+//     fib[i]= fib[i-1] +fib[i-2];
+//     printf("%d", fib[i]);
+//     }
+//   printf("\n");
+//   return 0;
+//   }
+// multidimensiona
+//count odd numbers in array
+// int countOdd(int arr[], int n);
+// void reverse(int arr[], int n);
+// void printArr(int arr[], int n);
+// int main (){
+//   int arr[]= {1,3,4,5,5};
+//   reverse(arr,5);
+//   printArr(arr,5);
+//   return 0;
+//     }
+// void printArr(int arr[], int n){
+
+//   for(int i=0; i<n; i++){
+//     printf("%d", arr[i]);
+    
+//   }
+//   printf("\n");
+//   }
+// void reverse(int arr[], int n){
+//   for (int i = 0; i<n/2; i++){
+//     int firstVal = arr[i];
+//     int secondVal = arr[n-i-1];
+//     arr[i] = secondVal;
+//     arr[n-i-1] = firstVal;
+//   }
+// }
+// int countOdd(int arr[], int n);
+// int main (){
+//   int arr[] = {1,3,4,56,5,5};
+//   printf("%d\n",*(arr+2));
+//     printf("%d\n",*(arr+5));
+//   return 0;
+// }
+// int countOdd(int arr[], int n){
+//   int count = 0;
+//   for(int i = 0; i<n; i++){
+//   if (arr[i] % 2!= 0){
+//     count++;
+    
+//   }
+// }
+// return count;
+// }
+
+
+
+// int countOdd(int arr[], int n);
+// int main (){
+//   int arr[] = {1,3,4,56,5,5};
+//   printf("%d", countOdd(arr, 6));
+//   return 0;
+// }
+// int countOdd(int arr[], int n){
+//   int count = 0;
+//   for(int i = 0; i<n; i++){
+//   if (arr[i] % 2!= 0){
+//     count++;
+    
+//   }
+// }
+// return count;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// void printNumbers (int *arr[], int n);
+// int main(){
+// int arr[] = {2,3,54,5,5,6};
+//   printNumbers(*arr, 6);
+//   return 0;
+//   }
+  
+// void printNumbers(int *arr[],int n){
+//     for (int i=0; i<n;i++)
+//       printf("%d",*arr[i]);
+//   }
+//Traverse in array
+// int  aadhar[6];
+//   int *ptr= &aadhar[0];
+// for (int i=0; i <10; i++){
+//   printf("%d index:",i);
+//   scanf("%d",&aadhar[i]);
+//   }
+//   for (int i=0; i <10; i++){
+//   printf("%d index = %d",i,aadhar[i]);
+//     }
+
+  
+// pointer arithematic like plus minus
+  // int age = 12;
+  // int _age = 44;
+  // int *ptr = &age;
+  // int *_ptr = &age;
+  // printf("differnce = %u", ptr-_ptr);
+  // _ptr = &age;
+  //   printf("comparsion = %u", ptr==_ptr);
+ 
+//   char star = "*";
+//   char *ptr = &star;
+//     printf("ptr = %u", ptr);
+//     ptr--;
+//   return 0;
+// }
+//   float price = 20.00;
+//   float *ptr = &price;
+//     printf("ptr = %u", ptr);
+//     ptr--;
+//   return 0;
+// }
+  // printf("ptr = %u",ptr);
+// int age = 22;
+// int *ptr = &age;
+//   printf("ptr = %u", ptr);
+// ptr--;
+//   printf("ptr = %u", ptr);
+// int main (){
+//   float price[3] = {100.5,100.0,300.56};
+  
+// printf("total price 1 : %f\n", price[0]+(0.18*price[0]));
+//   printf("total price 1 : %f\n", price[1]+(0.18*price[1]));
+//   printf("total price 1 : %f\n", price[2]+(0.18*price[2]));
+   //return 0;
+ //}

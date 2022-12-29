@@ -1,0 +1,45 @@
+
+//# include <stdio.h>
+// cube
+//int main () {
+//int n;
+  //printf("enter a number :");
+  //scanf("%d", &n);
+  //printf("cube of number:%d", n*n*n);
+ // return 0;
+//}
+
+
+
+///# include <stdio.h>
+// perimeter of rectangle
+//int main () {
+//float length, width,perimeter;
+  //int a,b;
+ // printf("enter length of rectangle:");
+ // scanf("%f", &length);
+   // printf("enter widith of rectangle");
+  //scanf("%f", &width);
+  //perimeter = 2*(length+ width);
+  //printf("perimeter of rectangle =  %f", perimeter);
+  //return 0;
+//}
+
+
+
+//# include <stdio.h>
+// area of circle
+//int main () {
+//float radius;
+ // printf("enter radius");
+  //scanf("%f", &radius);
+ // printf("radius is :%f", 3.14*radius*radius);
+  //return 0;
+//}
+
+
+
+
+
+//#include <stdio.h>
+//int main (){

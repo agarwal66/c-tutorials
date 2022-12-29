@@ -1,0 +1,17 @@
+# include <stdio.h>
+#include <math.h>
+// modular operator%
+int main () {
+  int a = (int)1.9999999999;
+printf("%d", a);
+  return 0;
+  } 
+// any lelo but d f c sbka khyal rkhna h or proper checking krna h proper
+
+//# include <stdio.h>
+//#include <math.h>
+// modular operator%
+//int main () {
+// printf("%d\n",8%3);
+ // return 0;
+ // } 

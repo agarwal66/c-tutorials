@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main (){
+  float price[3];
+  printf("enter 3 prices :");
+  scanf("%f", &price[0]);
+   printf("enter 3 prices :");
+  scanf("%f", &price[0]);
+   printf("enter 3 prices :");
+  scanf("%f", &price[0]);
+  printf("total price 1 : %f\n",price[0]+(0.18*price[0]));
+//   // int marks1 = 33;
+//   // int marks2 = 54;
+//   // int marks3 = 33;
+//   // printf("%d\n",&marks[1,2,3]);
+//   // return 0;
+//   int marks[3];
+//   printf("enter phy: ");
+//   scanf("%d", &marks[0]);
+//   printf("enter math: ");
+//   scanf("%d", &marks[2]);
+// printf("enter science: ");
+//   scanf("%d", &marks[3]);
+//   printf("phy = %d, math = %d,  science = %d", marks[0],marks[2],marks[3]);
+//   return 0;
+
+// }

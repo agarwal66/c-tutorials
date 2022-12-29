@@ -1,0 +1,101 @@
+// void printString( char arr[]);
+//  int strlen(char arr[]);
+//   int main(){
+//     char name[] = "prateek";
+//     printf("length is : %d",strlen(name));
+//     return 0;
+//     }
+// int countLength(char arr[]){
+//  int count = 0;
+//  for(int i=0;arr[i] !='\0'; i++){
+//      count++;
+//    }
+//  return count;
+//  }
+//    void printString( char arr[]){
+//    for (int i = 0; arr[i] != '\0' ;i++){
+//      printf("%c", arr[i]);
+    
+// }
+//    printf("\n");
+//  }
+   // char *canChange= "Hello world";
+//   // puts(canChange);
+//    //canChange = "prateek";
+//    //puts(canChange);
+//    return 0;
+//    }
+// int countLength(char arr[]){
+// int count = 0;
+// for(int i=0;arr[i] !='\0'; i++){
+//      count++;
+//   }
+// return count;
+// }
+//-------------------
+//    fgets(name, 100,stdin);
+//    printf("length is : %d",countLength(name));
+   
+//   // char *canChange= "Hello world";
+//   // puts(canChange);
+//    //canChange = "prateek";
+//    //puts(canChange);
+//    return 0;
+//    }
+// int countLength(char arr[]){
+// int count = 0;
+// for(int i=0;arr[i] !='\0'; i++){
+//      count++;
+//   }
+// return count;
+// }
+// void printString( char arr[]);
+// int countLength(char arr[]);
+//  int main(){
+//    char name[100];
+//    fgets(name, 100,stdin);
+//    printf("length is : %d",countLength(name));
+   
+//   // char *canChange= "Hello world";
+//   // puts(canChange);
+//    //canChange = "prateek";
+//    //puts(canChange);
+//    return 0;
+//    }
+// int countLength(char arr[]){
+// int count = 0;
+// for(int i=0;arr[i] !='\0'; i++){
+//      count++;
+//   }
+// return count;
+// }
+    
+   //char str[100];
+   //fgets(str , 100, stdin);
+   //gets(str);
+   //puts(str);
+   // char fullName[100];
+   // scanf("%s", fullName);
+   // printf("your name is : %s", fullName);
+   //return 0;
+   // char name[50];
+   // scanf("%s", name);
+   // printf("enter your name is %s", name);
+   // // chr me null array jod de
+//   //char name[] = {'p','r','a','t','e','e','k'};
+//   //printf("%c", name);
+//   char firstName[] = "Prateek";
+//   char lastName[] = "Agarwal";
+// printString(firstName);
+//   printString(lastName);
+   //return 0;
+   //}
+//   // memory chracter every block has 1 byte which saves oe word
+  
+ //void printString( char arr[]){
+  // for (int i = 0; arr[i] != '\0' //;i++){
+  //   printf("%c", arr[i]);
+    
+//}
+  // printf("\n");
+ // }

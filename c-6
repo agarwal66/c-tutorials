@@ -1,0 +1,44 @@
+#include<stdio.h>
+int main()
+{
+	char ch;
+	
+	printf("Enter character : ");
+	scanf("%c", &ch);
+	
+	if(ch>='0' && ch<='9')
+		printf("It's a digit \n");
+	else
+		printf("It's not a digit \n");
+	return 0;
+}
+
+#include <stdio.h>
+# include <math.h>
+int main () {
+  int x;
+  printf("enter a number");
+  scanf("%d",&x);
+  printf("%d", x>9 && x<100);
+  ///int isMonday = 1;
+  //int isRaining = 1;
+  //printf("%d", isMonday &&isRaining);
+  //int isSunday = 1;
+  //int isSnowing = 1;
+ // printf("%d", isSunday &&isSnowing);
+  return 0;
+}
+//q2//
+//int power;
+ //printf("%d", 8*8);// bitwise
+//int x; int y =x;// isme ; yh comma jruri h
+  //char star = '*';// char alwys define in  single value
+//int power = b+c;
+  //printf("%d",power);
+//---------------//
+/////Q
+  //int x;
+  //printf("enter a number");
+  //scanf("%d",&x);
+    //printf("%d" , x % 2 ==0);// if kch print hoga tab 1 aayeg nh hoga divide toh 0 aayega jo jo 2 se divide ho
+  //printf("%d" , x % 2 ==0); //even odd same h even me 1 or odd me 0 in 2 ke case me

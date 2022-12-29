@@ -1,0 +1,129 @@
+#include <stdio.h>
+#include <math.h>
+int main (){
+  double x = 5.5;
+  double y = 45.5;
+  double p;
+  p = pow(x , y);
+  printf("The value : %f", p);
+  return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// float temp (float t);
+// int main (){
+//   float temperature;
+//   printf("enter the temp in celsius");
+//   scanf("%f", &temperature);
+// temp(temperature);
+// return 0;
+// }
+// float temp(float t){
+//   if (t > 50){
+//     printf("%.2f is Hot", t);
+//     }
+//     else if ( t <23){
+//       printf("%.2f is cold",t);
+//       }
+// else  
+//     {
+//   printf("%.2f is normsl",t);
+// }
+//   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// #include <stdio.h>
+// #include <math.h>
+
+ 
+// int main()
+// {
+//   	double number, result;
+ 
+//  	printf(" Enter any Number : ");
+//   	scanf("%lf", &number);
+  
+//   	result = sqrt(number);
+  
+//   	printf("\n Square Root a given number %.2lf  =  %.2lf", number, result);
+ 
+//   	return 0;
+// }
+// float squareRoot(int a);
+// int main (){
+//   float square n;
+//   printf("enter a number");
+//   scanf("%d", &n);
+//   printf("%f", squareRoot(n));
+//   return 0;
+// }
+// float squareRoot(int a){
+//    return  findsquareRo;
+//  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int sum (int a , int b);
+// // //passing argument
+//  int main (){
+//    int a , b;
+//    printf("enter a first number");
+//   scanf("%d",&a);
+//    printf("enter second number");
+//    scanf("%d",&b);
+//   int s = sum (a,b);
+//   printf(" sum is %d", s);
+//   return 0;
+//   }
+//   int sum (int a , int b){
+//    return a +b;
+// }

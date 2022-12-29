@@ -1,0 +1,43 @@
+//constants
+// keywords
+//32 keywords in c 
+
+#include <stdio.h>
+int main () {
+  int age ;
+  printf("enter age");
+  scanf("%d", &age);
+  printf("age is : %age");
+  //int age = 22;
+  //printf("%d",age);
+  // for real no %f
+  // for char is %c then uska name jo address 
+  // these all three are clled format function
+  //float pi = 33.44;
+ // printf("%f",pi);
+  //char name = "prateek";
+   // printf("%c",name);
+    
+  //printf("Hello prateek\n");
+    //printf("Hello prateek\n");
+   // printf("Hello prateek\n");
+   // printf("Hello prateek\n");
+  return 0;
+  }
+
+
+
+
+
+
+
+//data typs
+
+//#include <stdio.h>
+//int main (){
+  //int age = 22;
+  //float pi = 0.87;
+  //char hashtag = '#';
+  //return 0;
+//}
+
